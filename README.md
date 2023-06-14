@@ -39,7 +39,7 @@ The views of the app are designed using SwiftUI's declarative interface:
 
 
 
-![preview.png](/Users/ewiniar/Desktop/UW/Poppin/PartyExplorer/preview.png)
+![preview.png](preview.png)
 
 ## Installation
 
