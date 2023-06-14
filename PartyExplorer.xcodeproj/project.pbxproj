@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		A42DC26B2A38B6770012CCD6 /* PartyExplorerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42DC26A2A38B6770012CCD6 /* PartyExplorerApp.swift */; };
-		A42DC26D2A38B6770012CCD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42DC26C2A38B6770012CCD6 /* ContentView.swift */; };
+		A42DC26D2A38B6770012CCD6 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42DC26C2A38B6770012CCD6 /* ExploreView.swift */; };
 		A42DC26F2A38B6790012CCD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42DC26E2A38B6790012CCD6 /* Assets.xcassets */; };
 		A42DC2722A38B6790012CCD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42DC2712A38B6790012CCD6 /* Preview Assets.xcassets */; };
 		A42DC27C2A38B67A0012CCD6 /* PartyExplorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42DC27B2A38B67A0012CCD6 /* PartyExplorerTests.swift */; };
 		A42DC2862A38B67A0012CCD6 /* PartyExplorerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42DC2852A38B67A0012CCD6 /* PartyExplorerUITests.swift */; };
 		A42DC2882A38B67A0012CCD6 /* PartyExplorerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42DC2872A38B67A0012CCD6 /* PartyExplorerUITestsLaunchTests.swift */; };
+		A42DC2962A38B6AF0012CCD6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42DC2952A38B6AF0012CCD6 /* CardView.swift */; };
+		A42DC29A2A38B8990012CCD6 /* Party.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42DC2992A38B8990012CCD6 /* Party.swift */; };
+		A42DC29E2A38BA150012CCD6 /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42DC29D2A38BA150012CCD6 /* ExploreViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		A42DC2672A38B6770012CCD6 /* PartyExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PartyExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A42DC26A2A38B6770012CCD6 /* PartyExplorerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyExplorerApp.swift; sourceTree = "<group>"; };
-		A42DC26C2A38B6770012CCD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A42DC26C2A38B6770012CCD6 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		A42DC26E2A38B6790012CCD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A42DC2712A38B6790012CCD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A42DC2772A38B67A0012CCD6 /* PartyExplorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PartyExplorerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,9 @@
 		A42DC2812A38B67A0012CCD6 /* PartyExplorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PartyExplorerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A42DC2852A38B67A0012CCD6 /* PartyExplorerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyExplorerUITests.swift; sourceTree = "<group>"; };
 		A42DC2872A38B67A0012CCD6 /* PartyExplorerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyExplorerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A42DC2952A38B6AF0012CCD6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A42DC2992A38B8990012CCD6 /* Party.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Party.swift; sourceTree = "<group>"; };
+		A42DC29D2A38BA150012CCD6 /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +100,10 @@
 		A42DC2692A38B6770012CCD6 /* PartyExplorer */ = {
 			isa = PBXGroup;
 			children = (
+				A42DC2982A38B87E0012CCD6 /* Model */,
+				A42DC2972A38B8720012CCD6 /* ViewModel */,
+				A42DC2942A38B68F0012CCD6 /* View */,
 				A42DC26A2A38B6770012CCD6 /* PartyExplorerApp.swift */,
-				A42DC26C2A38B6770012CCD6 /* ContentView.swift */,
 				A42DC26E2A38B6790012CCD6 /* Assets.xcassets */,
 				A42DC2702A38B6790012CCD6 /* Preview Content */,
 			);
@@ -125,6 +133,31 @@
 				A42DC2872A38B67A0012CCD6 /* PartyExplorerUITestsLaunchTests.swift */,
 			);
 			path = PartyExplorerUITests;
+			sourceTree = "<group>";
+		};
+		A42DC2942A38B68F0012CCD6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A42DC26C2A38B6770012CCD6 /* ExploreView.swift */,
+				A42DC2952A38B6AF0012CCD6 /* CardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A42DC2972A38B8720012CCD6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A42DC29D2A38BA150012CCD6 /* ExploreViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A42DC2982A38B87E0012CCD6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A42DC2992A38B8990012CCD6 /* Party.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +290,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A42DC26D2A38B6770012CCD6 /* ContentView.swift in Sources */,
+				A42DC26D2A38B6770012CCD6 /* ExploreView.swift in Sources */,
+				A42DC29E2A38BA150012CCD6 /* ExploreViewModel.swift in Sources */,
+				A42DC2962A38B6AF0012CCD6 /* CardView.swift in Sources */,
+				A42DC29A2A38B8990012CCD6 /* Party.swift in Sources */,
 				A42DC26B2A38B6770012CCD6 /* PartyExplorerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
